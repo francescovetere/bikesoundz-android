@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.Valenti">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_valentiRME50tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RME/SM/\nN_01/S_01 50"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_valentiRME50btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_valentiRME50img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    app:srcCompat="@drawable/valenti_rme50" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_valentiRMZ250Etv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RMZ 250 E"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_valentiRMZ250Ebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_valentiRMZ250Eimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/valenti_rmz250e" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_valentiRMZ450Etv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RMZ 450 E/\nSM 450 Z"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_valentiRMZ450Ebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_valentiRMZ450Eimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/valenti_sm450z" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</ScrollView>
+
+</RelativeLayout>
+

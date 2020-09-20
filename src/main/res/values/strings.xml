@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BikeSoundz Pro</string>
+    <string name="savePath">Saved/</string>
+    <string name="sharedPath">Shared/</string>
+    <string name="configPath">configFiles/</string>
+    <string name="shareMsg">Share this audio</string>
+</resources>

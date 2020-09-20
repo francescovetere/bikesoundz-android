@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.Triumph">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphSpeedTripletv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPEED TRIPLE"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphSpeedTriplebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphSpeedTripleimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_speed_triple" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphStreetTripletv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="STREET TRIPLE"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphStreetTriple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphStreetTripleimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_street_triple" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphBonnevilleT100tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BONNEVILLE T100"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphBonnevilleT100btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphBonnevilleT100img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/bmw_r_1200_r" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphBonnevilleT120tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BONNEVILLE T120"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphBonnevilleT120btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphBonnevilleT1200img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_bonneville_t120" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphStreetCuptv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="STREET CUP"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphStreetCupbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphStreetCupimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_street_cup" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphStreetTwintv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="STREET TWIN"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphStreetTwinbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphStreetTwinimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_street_twin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphTigerSporttv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TIGER SPORT"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphTigerSportbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphTigerSportimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/triumph_tiger_sport" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphTigerExplorertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TIGER EXPLORER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphTigerExplorerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphTigerExplorerimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    app:srcCompat="@drawable/triumph_tiger_explorer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphTiger800XRtv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TIGER 800 XR"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphTiger800XRbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphTiger800XRimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/triumph_tiger_800xr" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphThruxton1200tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THRUXTON 1200"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphThruxton1200btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphThruxton1200img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/triumph_thruxton1200" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphBonnevilleBobbertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BONNEVILLE BOBBER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphBonnevilleBobberbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphBonnevilleBobberimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/triumph_bonneville_bobber" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.59"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphSpeedmastertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPEEDMASTER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphSpeedmasterbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphSpeedmasterimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/triumph_speedmaster" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphRocketIIItv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ROCKET III"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphRocketIIIbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphRocketIIIimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/triumph_rocketiii" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphThunderbirdtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="THUNDERBIRD"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphThunderbirdbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphThunderbirdimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/triumph_thunderbird" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphScramblertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SCRAMBLER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphScramblerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphScramblerimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/triumph_scrambler" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphStreetScramblertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="STREET SCRAMBLER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphStreetScramblerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphStreetScramblerimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.44"
+                    app:srcCompat="@drawable/triumph_street_scrambler" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_triumphTiger800XCtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TIGER 800 XC"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_triumphTiger800XCbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_triumphTiger800XCimg"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/triumph_tiger_800xc"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.HM">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hmCRE50tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRE/CRM 50"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hmCRE50btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hmCRE50img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/hm_cre50" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hmCRE1252Ttv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRE/CRM 125 2T"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hmCRE1252Tbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hmCRE1252Timg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/hm_crm1252t" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hmCRE1254ttv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRE/CRM 125 4T"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hmCRE1254tbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hmCRE1254timg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/hm_cre1254t" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hmCity125tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CITY 125/200"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hmCity125btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hmCity125img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/hm_city125" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hmLocusta125tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="LOCUSTA 125/200"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hmLocusta125btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hmLocusta125img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/hm_locusta125" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </ScrollView>
+
+</RelativeLayout>
+

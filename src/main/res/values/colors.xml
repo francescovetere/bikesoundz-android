@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue2">#0471ee</color>
+    <color name="red2">#f42307</color>
+    <color name="toolbarColor">#ffb700</color>
+    <color name="tvColor">#ffb700</color>
+    <color name="titleColor">#000000</color>
+    <color name="unusedColor">#d62222</color>#d62222
+</resources>

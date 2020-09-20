@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.KTM">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmDuke125tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DUKE 125"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmDuke125btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmDuke125img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_duke125" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmDuke390tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DUKE 390"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmDuke390btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmDuke390img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_duke390" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmDuke690tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DUKE 690"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmDuke690btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmDuke690img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_duke690" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmSuperDukeR1290tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUPER DUKE R 1290"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmSuperDukeR1290btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmSuperDukeR1290img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_super_duke_r1290" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmSuperDukeGT1290tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUPER DUKE GT 1290"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmSuperDukeGT1290btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmSuperDukeGT1290img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_super_duke_gt1290" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmRC125tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RC 125"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmRC125btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmRC125img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_rc125" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmRC390tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RC 390"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmRC390btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmRC390img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/ktm_rc390" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmEnduro690tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ENDURO 690"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmEnduro690btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmEnduro690img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    app:srcCompat="@drawable/ktm_enduro690" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc125tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="EXC 125"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc125btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc125img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ktm_exc125" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc200tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EXC 200"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc200btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc200img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ktm_exc200" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc250_etv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EXC-E 250"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc250_ebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc250_eimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_exce250" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.59"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc300_etv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXC-E 300"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc300_ebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc300_eimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_exce300"
+                    android:layout_weight="0.36" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc_f250tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXC-F 250"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc_f250btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc_f250img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ktm_excf250" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc350tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EXC 350"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc350btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc350img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/ktm_exc350" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc450tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXC 450"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc450btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc450img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ktm_exc450" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmExc500tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXC 500"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmExc500btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmExc500img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.44"
+                    app:srcCompat="@drawable/ktm_exc500" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmFreeride250Rtv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FREERIDE 250 R"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmFreeride250Rbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmFreeride250Rimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.44"
+                    app:srcCompat="@drawable/ktm_freeride250r" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmFreeride350tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FREERIDE 350"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmFreeride350btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmFreeride350img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_freeride350"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmSMC_R690tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SMC R 690"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmSMC_R690btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmSMC_R690img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_smc_r690"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmAdventure1050tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADVENTURE 1050"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmAdventure1050btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmAdventure1050img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_adventure1050"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmAdventure1090tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADVENTURE 1090"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmAdventure1090btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmAdventure1090img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_adventure1090"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmAdventure1190tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ADVENTURE 1190"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmAdventure1190btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmAdventure1190img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_adventure1190"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_ktmSuperAdventure1290tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUPER ADVENTURE 1290"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_ktmSuperAdventure1290btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_ktmSuperAdventure1290img"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ktm_super_adventure1290"
+                    android:layout_weight="0.64" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </ScrollView>
+
+</RelativeLayout>
+
+

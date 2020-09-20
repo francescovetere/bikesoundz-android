@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.MotoGuzzi">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgAudacetv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="AUDACE"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgAudacebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgAudaceimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/mg_audace" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgCaliforniatv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CALIFORNIA"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgCaliforniabtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgCaliforniaimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4.55"
+                    app:srcCompat="@drawable/mg_california" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgEldoradotv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:text="ELDORADO"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textColor="@color/tvColor"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgEldoradobtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgEldoradoimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mg_eldorado" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgV7IItv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V7 II"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgV7IIbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgV7IIimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.00"
+                    app:srcCompat="@drawable/mg_v7ii" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgV7IIRacertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V7 II RACER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgV7IIRacerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgV7IIRacerimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mg_v7iiracer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgV7IIItv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="V7 III"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgV7IIIbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgV7IIIimg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mg_v7iii" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgV7IIIRacertv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V7 III RACER"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgV7IIIRacerbtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgV7IIIRacerimg"
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mg_v7iiiracer" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgV9tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="V9"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgV9btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgV9img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mg_v9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/_mgMGX21tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MGX-21"
+                        android:textAlignment="viewStart"
+                        android:layout_gravity="start"
+                        android:textSize="18sp"
+                        android:background="@android:color/white"
+                        android:textColor="@color/tvColor"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/_mgMGX21btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PLAY" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/_mgMGX21img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/mg_mgx21" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    </ScrollView>
+</RelativeLayout>
+

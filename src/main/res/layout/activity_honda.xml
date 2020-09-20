@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_home"
+    android:orientation="vertical"
+    tools:context="com.lemontea.BikeSoundzPro.Honda">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB125Ftv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CB 125 F"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB125Fbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB125Fimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cb_125f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB500Ftv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CB 500 F"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB500Fbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB500Fimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cb_500f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB650Ftv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CB 650 F"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB650Fbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB650Fimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cb_650f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB1000Rtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CB 1000 R"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB1000Rbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB1000Rimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cb_1000r" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCBR125Rtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CBR 125 R"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCBR125Rbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCBR125Rimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cbr_125r" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCBR300Rtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CBR 300 R"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCBR300Rbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCBR300Rimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cbr_300r" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCBR500Rtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CBR 500 R"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCBR500Rbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCBR500Rimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4.55"
+                        app:srcCompat="@drawable/honda_cbr_500r" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.00"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCBR1000RRtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:text="CBR 1000 RR FIREBLADE"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textColor="@color/tvColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCBR1000RRbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCBR1000RRimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.00"
+                        app:srcCompat="@drawable/honda_cbr_1000rr" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB500Xtv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="CB 500 X"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB500Xbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB500Ximg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/honda_cb_500x" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCBR650Ftv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CBR 650 F"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCBR650Fbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCBR650Fimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/honda_cbr_650f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCB1100tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CB 1100"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCB1100btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCB1100img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/honda_cb_1100" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.59"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCrossrunnertv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CROSSRUNNER"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCrossrunnerbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCrossrunnerimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.36"
+                        app:srcCompat="@drawable/honda_crossrunner" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaGoldWingtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="GOLD WING"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaGoldWingbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaGoldWingimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/honda_gold_wing" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaMSXtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="MSX"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaMSXbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaMSXimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/honda_msx" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaNC750Stv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="NC 750 S"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaNC750Sbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaNC750Simg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/honda_nc_750s" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaNC750Xtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="NC 750 X"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaNC750Xbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaNC750Ximg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.44"
+                        app:srcCompat="@drawable/honda_nc_750x" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaVFR800Ftv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="VFR 800 F"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaVFR800Fbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaVFR800Fimg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.44"
+                        app:srcCompat="@drawable/honda_vfr_800f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaAfricaTwintv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="AFRICA TWIN"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaAfricaTwinbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaAfricaTwinimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_africa_twin" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCrossTourertv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CROSSTOURER"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCrossTourerbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCrossTourerimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crosstourer" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCMX500Rebeltv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CMX 500 REBEL"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCMX500Rebelbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCMX500Rebelimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_cmx_500_rebel" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF250Scramblertv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:text="CRF SCRAMBLER 250"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textColor="@color/tvColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF250Scramblerbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF250Scramblerimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_250" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF250tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRF ENDURO 250"
+                            android:textSize="18sp"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF250btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF250img"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_enduro_250" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF300tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRF ENDURO 300"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF300btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF300img"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_enduro_300" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF450tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRF ENDURO 450"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF450btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF450img"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_enduro_450" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF500tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="CRF ENDURO 500"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textSize="18sp"
+                            android:background="@android:color/white"
+                            android:textColor="@color/tvColor"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF500btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF500img"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_enduro_500" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF450SMtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:text="CRF SUPERMOTO 450"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textColor="@color/tvColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF450SMbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF450SMimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_supermoto_450" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/_hondaCRF500SMtv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:text="CRF SUPERMOTO 500"
+                            android:textAlignment="viewStart"
+                            android:layout_gravity="start"
+                            android:textColor="@color/tvColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/_hondaCRF500SMbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="PLAY" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/_hondaCRF500SMimg"
+                        android:layout_width="166dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.64"
+                        app:srcCompat="@drawable/honda_crf_supermoto_500" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </ScrollView>
+
+</RelativeLayout>
+

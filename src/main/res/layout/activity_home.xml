@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/bg_home"
+    tools:context="com.lemontea.BikeSoundzPro.Home">
+
+    <include
+        android:id="@+id/_toolbar"
+        layout="@layout/toolbar_layout" />
+
+    <TextView
+        android:id="@+id/_homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/select_a_brand_logo"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/_homeTitle"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/_aprilia"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="75dp"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/aprilia_logo"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/_beta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/beta_logo"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/_bmw"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bmw_logo"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/_derbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/derbi_logo" />
+
+                <Button
+                    android:id="@+id/_ducati"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/ducati_logo" />
+
+                <Button
+                    android:id="@+id/_fantic"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/fantic_logo" />
+
+                <Button
+                    android:id="@+id/_harley"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_margin="25dp"
+                    android:background="@drawable/hd_logo" />
+
+                <Button
+                    android:id="@+id/_hm"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hm_logo" />
+
+                <Button
+                    android:id="@+id/_honda"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/honda_logo" />
+
+                <Button
+                    android:id="@+id/_husaberg"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/husa_logo" />
+
+                <Button
+                    android:id="@+id/_husqvarna"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/hsq_logo" />
+
+                <Button
+                    android:id="@+id/_kawasaki"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/kawa_logo" />
+
+                <Button
+                    android:id="@+id/_ktm"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ktm_logo" />
+
+                <Button
+                    android:id="@+id/_moto_guzzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mg_logo" />
+
+                <Button
+                    android:id="@+id/_mv_agusta"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/mv_logo" />
+
+                <Button
+                    android:id="@+id/_suzuki"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/suzuki_logo" />
+
+                <Button
+                    android:id="@+id/_tm"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tm_logo" />
+
+                <Button
+                    android:id="@+id/_triumph"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/triumph_logo" />
+
+                <Button
+                    android:id="@+id/_valenti"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/valenti_logo" />
+
+                <Button
+                    android:id="@+id/_yamaha"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/yama_logo" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
